@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery Room</title>
+  <link rel="stylesheet" href="src/main.css"> 
+  <script type="module" src="src/main.js"></script> 
+</head>
+<body>
+
+  <canvas id="three-canvas"></canvas>
+  <div class="target-marker"></div>
+  <div id="gallery"></div> <!-- 이미지를 표시할 영역 -->
+
+  <script>
+    // 서버의 업로드된 이미지와 JSON 파일 데이터를 로드
+    Promise.all([
+      fetch('http://localhost:3000/uploaded-images').then(response => response.json()),
+      fetch('http://localhost:3000/img.json').then(response => response.json())
+    ])
+    .then(([imageData, jsonData]) => {
+      const gallery = document.getElementById('gallery');
+      gallery.innerHTML = ''; // 기존 내용을 비우기
+
+      // 이미지 목록을 불러와 img.json의 데이터와 매칭
+      imageData.fileUrls.forEach(fileUrl => {
+        const imageName = fileUrl.split('/').pop(); // 파일 이름만 추출
+
+        // JSON 데이터에서 해당 이미지 정보 찾기
+        const imageInfo = jsonData.images.find(img => img.id === imageName);
+
+        if (imageInfo) {
+          // 각 이미지 요소 생성
+          const imgContainer = document.createElement('div');
+          imgContainer.classList.add('image-container');
+
+          const img = document.createElement('img');
+          img.src = fileUrl;
+          img.alt = imageInfo.title;
+
+          const title = document.createElement('h3');
+          title.textContent = imageInfo.title;
+
+          const author = document.createElement('p');
+          author.textContent = `작가: ${imageInfo.author}`;
+
+          const description = document.createElement('p');
+          description.textContent = imageInfo.description;
+
+          // 요소들을 container에 추가
+          imgContainer.appendChild(img);
+          imgContainer.appendChild(title);
+          imgContainer.appendChild(author);
+          imgContainer.appendChild(description);
+
+          // gallery에 container 추가
+          gallery.appendChild(imgContainer);
+        }
+      });
+    })
+    .catch(error => console.error('Error fetching data:', error));
+  </script>
+</body>
+</html>
+
+
