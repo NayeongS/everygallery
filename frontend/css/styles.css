@@ -1,0 +1,40 @@
+body {
+  background-image: url('background.jpg'); /* 배경 이미지 경로 */
+  background-size: cover; /* 이미지를 화면에 맞게 조정 */
+  background-position: center; /* 이미지 중앙 정렬 */
+  background-repeat: no-repeat; /* 반복하지 않도록 설정 */
+  font-family: 'TheJamsil5Bold';
+  }
+  
+  h1 {
+    color: #343a40; /* 다크 그레이 색상 */
+  }
+  
+  .lead {
+    color: #323435; /* 연한 회색 색상 */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Bootstrap 기본 파란색 */
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* 어두운 파란색 */
+    border-color: #0056b3;
+  }
+  
+  .text-center {
+    margin-top: 2rem; /* 위쪽 여백 */
+  }
+  
+  #fileInput {
+    max-width: 400px; /* 최대 폭 설정 */
+    margin: 0 auto; /* 가운데 정렬 */
+  }
+  @font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}

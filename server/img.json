@@ -1,94 +1,184 @@
 {
-    "images": [
-        {
-            "id": "file-1.png",
-            "title": "첫 번째 이미지",
-            "author": "작가 이름1",
-            "description": "이 이미지는 첫 번째 파일입니다."
-        },
-        {
-            "id": "file-2.png",
-            "title": "두 번째 이미지",
-            "author": "작가 이름2",
-            "description": "이 이미지는 두 번째 파일입니다."
-        },
-        {
-            "id": "file-3.png",
-            "title": "세 번째 이미지",
-            "author": "작가 이름3",
-            "description": "이 이미지는 세 번째 파일입니다."
-        },
-        {
-            "id": "file-4.png",
-            "title": "네 번째 이미지",
-            "author": "작가 이름4",
-            "description": "이 이미지는 네 번째 파일입니다."
-        },
-        {
-            "id": "file-5.png",
-            "title": "다섯 번째 이미지",
-            "author": "작가 이름5",
-            "description": "이 이미지는 다섯 번째 파일입니다."
-        },
-        {
-            "id": "file-6.png",
-            "title": "여섯 번째 이미지",
-            "author": "작가 이름6",
-            "description": "이 이미지는 여섯 번째 파일입니다."
-        },
-        {
-            "id": "file-7.png",
-            "title": "일곱 번째 이미지",
-            "author": "작가 이름7",
-            "description": "이 이미지는 일곱 번째 파일입니다."
-        },
-        {
-            "id": "file-8.png",
-            "title": "여덟 번째 이미지",
-            "author": "작가 이름8",
-            "description": "이 이미지는 여덟 번째 파일입니다."
-        },
-        {
-            "id": "file-9.png",
-            "title": "아홉 번째 이미지",
-            "author": "작가 이름9",
-            "description": "이 이미지는 아홉 번째 파일입니다."
-        },
-        {
-            "id": "file-10.png",
-            "title": "열 번째 이미지",
-            "author": "작가 이름10",
-            "description": "이 이미지는 열 번째 파일입니다."
-        },
-        {
-            "id": "file-11.png",
-            "title": "열한 번째 이미지",
-            "author": "작가 이름11",
-            "description": "이 이미지는 열한 번째 파일입니다."
-        },
-        {
-            "id": "file-12.png",
-            "title": "열두 번째 이미지",
-            "author": "작가 이름12",
-            "description": "이 이미지는 열두 번째 파일입니다."
-        },
-        {
-            "id": "file-13.png",
-            "title": "열세 번째 이미지",
-            "author": "작가 이름13",
-            "description": "이 이미지는 열세 번째 파일입니다."
-        },
-        {
-            "id": "file-14.png",
-            "title": "열네 번째 이미지",
-            "author": "작가 이름14",
-            "description": "이 이미지는 열네 번째 파일입니다."
-        },
-        {
-            "id": "file-15.png",
-            "title": "열다섯 번째 이미지",
-            "author": "작가 이름15",
-            "description": "이 이미지는 열다섯 번째 파일입니다."
-        }
-    ]
+  "images": [
+    {
+      "id": "file-1.png",
+      "title": "첫 번째 이미지",
+      "author": "작가 이름1",
+      "description": "이 이미지는 첫 번째 파일입니다."
+    },
+    {
+      "id": "file-2.png",
+      "title": "두 번째 이미지",
+      "author": "작가 이름2",
+      "description": "이 이미지는 두 번째 파일입니다."
+    },
+    {
+      "id": "file-3.png",
+      "title": "세 번째 이미지",
+      "author": "작가 이름3",
+      "description": "이 이미지는 세 번째 파일입니다."
+    },
+    {
+      "id": "file-4.png",
+      "title": "네 번째 이미지",
+      "author": "작가 이름4",
+      "description": "이 이미지는 네 번째 파일입니다."
+    },
+    {
+      "id": "file-5.png",
+      "title": "다섯 번째 이미지",
+      "author": "작가 이름5",
+      "description": "이 이미지는 다섯 번째 파일입니다."
+    },
+    {
+      "id": "file-6.png",
+      "title": "여섯 번째 이미지",
+      "author": "작가 이름6",
+      "description": "이 이미지는 여섯 번째 파일입니다."
+    },
+    {
+      "id": "file-7.png",
+      "title": "일곱 번째 이미지",
+      "author": "작가 이름7",
+      "description": "이 이미지는 일곱 번째 파일입니다."
+    },
+    {
+      "id": "file-8.png",
+      "title": "여덟 번째 이미지",
+      "author": "작가 이름8",
+      "description": "이 이미지는 여덟 번째 파일입니다."
+    },
+    {
+      "id": "file-9.png",
+      "title": "아홉 번째 이미지",
+      "author": "작가 이름9",
+      "description": "이 이미지는 아홉 번째 파일입니다."
+    },
+    {
+      "id": "file-10.png",
+      "title": "열 번째 이미지",
+      "author": "작가 이름10",
+      "description": "이 이미지는 열 번째 파일입니다."
+    },
+    {
+      "id": "file-11.png",
+      "title": "열한 번째 이미지",
+      "author": "작가 이름11",
+      "description": "이 이미지는 열한 번째 파일입니다."
+    },
+    {
+      "id": "file-12.png",
+      "title": "열두 번째 이미지",
+      "author": "작가 이름12",
+      "description": "이 이미지는 열두 번째 파일입니다."
+    },
+    {
+      "id": "file-13.png",
+      "title": "열세 번째 이미지",
+      "author": "작가 이름13",
+      "description": "이 이미지는 열세 번째 파일입니다."
+    },
+    {
+      "id": "file-14.png",
+      "title": "열네 번째 이미지",
+      "author": "작가 이름14",
+      "description": "이 이미지는 열네 번째 파일입니다."
+    },
+    {
+      "id": "file-15.png",
+      "title": "열다섯 번째 이미지",
+      "author": "작가 이름15",
+      "description": "이 이미지는 열다섯 번째 파일입니다."
+    },
+    {
+      "id": "file-1.jpg",
+      "title": "첫 번째 이미지",
+      "author": "작가 이름1",
+      "description": "이 이미지는 첫 번째 파일입니다."
+    },
+    {
+      "id": "file-2.jpg",
+      "title": "두 번째 이미지",
+      "author": "작가 이름2",
+      "description": "이 이미지는 두 번째 파일입니다."
+    },
+    {
+      "id": "file-3.jpg",
+      "title": "세 번째 이미지",
+      "author": "작가 이름3",
+      "description": "이 이미지는 세 번째 파일입니다."
+    },
+    {
+      "id": "file-4.jpg",
+      "title": "네 번째 이미지",
+      "author": "작가 이름4",
+      "description": "이 이미지는 네 번째 파일입니다."
+    },
+    {
+      "id": "file-5.jpg",
+      "title": "다섯 번째 이미지",
+      "author": "작가 이름5",
+      "description": "이 이미지는 다섯 번째 파일입니다."
+    },
+    {
+      "id": "file-6.jpg",
+      "title": "여섯 번째 이미지",
+      "author": "작가 이름6",
+      "description": "이 이미지는 여섯 번째 파일입니다."
+    },
+    {
+      "id": "file-7.jpg",
+      "title": "일곱 번째 이미지",
+      "author": "작가 이름7",
+      "description": "이 이미지는 일곱 번째 파일입니다."
+    },
+    {
+      "id": "file-8.jpg",
+      "title": "여덟 번째 이미지",
+      "author": "작가 이름8",
+      "description": "이 이미지는 여덟 번째 파일입니다."
+    },
+    {
+      "id": "file-9.jpg",
+      "title": "아홉 번째 이미지",
+      "author": "작가 이름9",
+      "description": "이 이미지는 아홉 번째 파일입니다."
+    },
+    {
+      "id": "file-10.jpg",
+      "title": "열 번째 이미지",
+      "author": "작가 이름10",
+      "description": "이 이미지는 열 번째 파일입니다."
+    },
+    {
+      "id": "file-11.jpg",
+      "title": "열한 번째 이미지",
+      "author": "작가 이름11",
+      "description": "이 이미지는 열한 번째 파일입니다."
+    },
+    {
+      "id": "file-12.jpg",
+      "title": "열두 번째 이미지",
+      "author": "작가 이름12",
+      "description": "이 이미지는 열두 번째 파일입니다."
+    },
+    {
+      "id": "file-13.jpg",
+      "title": "열세 번째 이미지",
+      "author": "작가 이름13",
+      "description": "이 이미지는 열세 번째 파일입니다."
+    },
+    {
+      "id": "file-14.jpg",
+      "title": "열네 번째 이미지",
+      "author": "작가 이름14",
+      "description": "이 이미지는 열네 번째 파일입니다."
+    },
+    {
+      "id": "file-15.jpg",
+      "title": "열다섯 번째 이미지",
+      "author": "작가 이름15",
+      "description": "이 이미지는 열다섯 번째 파일입니다."
+    }
+  ]
 }

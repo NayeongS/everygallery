@@ -4,7 +4,7 @@ export default {
 	base: './',
 	build:
 	{
-		outDir: '../dist',
+		outDir: './dist',
 		emptyOutDir: true,
 		sourcemap: true
 	}
